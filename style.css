@@ -1,0 +1,90 @@
+body{
+  text-align: center;
+  font-family: 'Montserrat', serif;
+}
+
+.output{
+    display:none;
+    background:rgb(255, 207, 241);
+    border-radius:30px;
+    padding:10px;
+    text-align: center;
+    width:650px;
+    margin:auto;
+    box-shadow: 10px 5px 10px rgba(128, 128, 128, 0.466);
+}
+
+.check_button{
+    width:15%;
+}
+
+.answer_text{
+    font-size: 1.2rem;
+}
+
+input{
+    width:30%;
+    border:none;
+    font-family: 'Montserrat', serif;
+    font-size:1rem;
+    padding:5px;
+}
+
+
+.player1_login{
+    width: 50%;
+    margin: auto;
+    padding:10px;
+    border-radius: 30px;;
+    background-color: rgb(200, 248, 248);
+    box-shadow: 10px 5px 10px rgba(128, 128, 128, 0.466);
+}
+
+.player2_login{
+    width: 50%;
+    margin: auto;
+    padding:10px;
+    border-radius: 30px;;
+    background-color: lavender;
+    box-shadow: 10px 5px 10px rgba(128, 128, 128, 0.466);
+}
+
+.name{
+    margin-right:1250px;
+    font-size: 1.2rem;
+}
+
+.num_input{
+    width:70%;
+    padding:10px;
+}
+
+.num_div{
+    padding:50px;
+    box-shadow: 10px 5px 10px rgba(128, 128, 128, 0.466);
+    border-radius:30px;
+    width: 650px;
+    margin:auto;
+}
+
+.num1_div{
+    background-color: #C8F8F8;
+}
+
+.num2_div{
+    background-color:rgb(230,230,250);
+}
+
+h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+label{
+    padding-right:10px;
+}
+
+button{
+    width:10%;
+}
