@@ -91,6 +91,8 @@ function check(){
             update_score();
             document.getElementById("player_question").innerHTML = "Question Turn - " + player1_name;
             document.getElementById("player_answer").innerHTML = "Answer Turn - " + player2_name;
+            document.getElementById("message").style.color = "green";
+            document.getElementById("message").innerHTML = "You got it right! You get a point! It's the next person's turn!";
         }
         else{
             question_turn = "player_2";
@@ -99,6 +101,8 @@ function check(){
             update_score();
             document.getElementById("player_question").innerHTML = "Question Turn - " + player2_name;
             document.getElementById("player_answer").innerHTML = "Answer Turn - " + player1_name;
+            document.getElementById("message").style.color = "green";
+            document.getElementById("message").innerHTML = "You got it right! You get a point! It's the next person's turn!";
         }
     }
     else{
@@ -108,6 +112,7 @@ function check(){
             answer_turn = "player_2";
             document.getElementById("player_question").innerHTML = "Question Turn - " + player1_name;
             document.getElementById("player_answer").innerHTML = "Answer Turn - " + player2_name;
+            document.getElementById("message").style.color = "red";
             document.getElementById("message").innerHTML = "You got it wrong, you don't get a point! It's the next person's turn!";
             // wait(5000);
             // document.getElementById("message").innerHTML = "";
@@ -118,6 +123,7 @@ function check(){
             answer_turn = "player_1";
             document.getElementById("player_question").innerHTML = "Question Turn - " + player2_name;
             document.getElementById("player_answer").innerHTML = "Answer Turn - " + player1_name;
+            document.getElementById("message").style.color = "red";
             document.getElementById("message").innerHTML = "You got it wrong, you don't get a point! It's the next person's turn!";
             // wait(5000);
             // document.getElementById("message").innerHTML = "";
