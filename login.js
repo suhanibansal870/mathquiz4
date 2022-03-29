@@ -1,8 +1,6 @@
 question_turn = "player_1";
 answer_turn = "player_2";
 
-var game = "game";
-
 
 function addUser(){
     player1_name = document.getElementById("player1_name_input").value;
